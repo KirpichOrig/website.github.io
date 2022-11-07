@@ -1,0 +1,228 @@
+html {
+    background-image: url(../images/6.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 80px;
+}
+nav a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+.full {
+    color: #17bed2;
+}
+.move{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding: 0 15px 0 15px;
+}
+.link {
+    font: 13px Hind, sans-serif;
+    color: #fff;
+}
+.logo {
+    font: 20px Hind, sans-serif;
+    text-decoration: none;
+    color:#fff;
+}
+.move_bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    margin-top: 30%;
+    border-top: 1px solid rgba(255,255,255,.2);
+    font: 20px Hind, sans-serif;
+    margin-left: -5px;
+}
+.name_add{
+    padding: 0 0 0 10px;
+}
+.name {
+    margin: 150px 0 0 120px;
+    width: 60%;
+    color: #fff;
+    font: 35px Hind, sans-serif;
+}
+#description{
+    margin-top: -10px;
+    font: 15px Hind, sans-serif;
+    font-weight: 300;
+    color: #a6a7aa;
+}
+small {
+    font-weight: 400;
+    color: #fff;
+    padding: 0 15px 0 0;
+}
+.developer {
+    display: flex;
+    justify-content: space-between;
+}
+.developer_all {
+    width: 400px;
+    background-color: #fff;
+    padding: 0 15px 0 25px;
+    margin: 130px 65px 0 65px;
+    font: 18px Hind, sans-serif;
+}
+.developer_name {
+    text-align: center;
+    font: 30px Hind, sans-serif;
+}
+.developer_options {
+    color: #383e3f;
+    font: 14px Hind, sans-serif;
+}
+/*
+================
+Алгоритмы
+================
+*/
+.text_alg {
+    margin: 130px 0 0 0;
+    background-color: white;
+    color: #353232;
+    padding: 5px 0 10px 15px;
+}
+.form {
+    font-style: italic;
+    font: 22px Hind, sans-serif;
+    font-weight: 300;
+}
+.forms {
+    list-style-type: square;
+    font: 18px Hind, sans-serif;
+}
+.dis{
+    font: 20px Hind, sans-serif;
+}
+.figure {
+    width: 20%;
+}
+/*
+================
+Таблица №1
+================
+*/
+.table_name {
+    text-align: center;
+    color: #fff;
+    font: 30px Hind, sans-serif;
+}
+.PC { 
+    width: 800px;
+    height: 700px;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+}
+.PC-info {
+    border: 2px solid black;
+}
+.h {
+    font: 20px Hind, sans-serif;
+}
+img {
+    width: 170px;
+}
+/*
+================
+Таблица №2
+================
+*/
+.g {
+    padding: 0 0 100px 0;
+}
+table,tr,td{
+    text-align: center;
+    border: solid 2px white;
+}
+table {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: rgb(8, 228, 0);
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+    color: aliceblue;
+}
+.pink{
+    background-color: pink;
+}
+.blueviolet{
+    background-color:blueviolet;
+    color: aliceblue;
+}
+/*
+================
+О нас
+================
+*/
+.ava {
+    width: 200px;
+    border-radius: 500px;
+    padding: 0 0 0 15px;
+}
+#me_description{
+    margin-top: -10px;
+    font: 22px Hind, sans-serif;
+    color: white;
+    padding: 0 0 0 10px;
+}
+#me_description_ava{
+    margin: -10px 0 0 -15px;
+    font: 19px Hind, sans-serif;
+    color: white;
+    padding: 0px 0 0 25px;
+}
+#quote {
+    margin: 40px 0 0 -15px;
+    font: 22px italic sans-serif;
+    color: white;
+    padding: 0px 0 0 25px;
+    width: 65%;
+}
+#quote_name {
+    margin: 10px 0 0 0;
+    font: 30px italic sans-serif;
+    text-align: right;
+    width: 65%;
+
+}
+.about {
+    margin: 150px 0 0 130px;
+    width: 70%;
+    color: #fff;
+    font: 35px Hind, sans-serif;
+}
+.ava_position {
+    text-align: right;
+    margin: -255px 0 -30px 0;
+}
